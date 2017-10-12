@@ -1,4 +1,4 @@
-generated tests
+tests-categorization
 testIsControlOther
 
 	"Exhaustively check that the charset under test behaves like Unicode"
