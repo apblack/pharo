@@ -2,5 +2,5 @@
 asEpiceaRingDefinition
 
 	^ self asRingDefinition
-		package: (EpPlatform current packageNameFor: self);
+		package: self epiceaPackageName;
 		yourself.

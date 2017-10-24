@@ -1,4 +1,4 @@
 api
 classesMenu: aBlock
 
-	classesListPresenter menu: aBlock
+	classesListModel menu: aBlock

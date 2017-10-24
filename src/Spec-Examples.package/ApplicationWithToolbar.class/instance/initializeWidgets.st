@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
-	menu := MenuPresenter new
+	menu := MenuModel new
 		addGroup: [ :group | 
 			group
 				addItem: [ :item | 

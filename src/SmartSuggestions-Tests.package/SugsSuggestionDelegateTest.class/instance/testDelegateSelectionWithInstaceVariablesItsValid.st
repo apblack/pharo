@@ -1,4 +1,4 @@
-tests - source
+source
 testDelegateSelectionWithInstaceVariablesItsValid
 	| suggestion |
 

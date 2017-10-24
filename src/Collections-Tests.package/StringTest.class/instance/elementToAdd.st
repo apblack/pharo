@@ -1,3 +1,3 @@
-tests - copy
+test - copy
 elementToAdd
 	^ $u

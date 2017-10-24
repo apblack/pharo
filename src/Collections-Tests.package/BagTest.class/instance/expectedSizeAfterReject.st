@@ -1,3 +1,3 @@
-tests - iterate
+test - iterate
 expectedSizeAfterReject
 	^ 2

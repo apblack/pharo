@@ -1,4 +1,4 @@
-tests - comparing
+test - comparing
 testOtherDictionaryEquality
 	self otherDictionaryClasses do: [:each | | nonEmptyDict2 |
 		nonEmptyDict2 := each new.

@@ -1,4 +1,4 @@
-tests
+testing
 testFindDelimitersStartingAt
 
 self assert: ('this is a string' findDelimiters: ' ' startingAt: 1) = 5.

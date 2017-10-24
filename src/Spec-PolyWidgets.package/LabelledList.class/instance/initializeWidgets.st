@@ -1,4 +1,4 @@
 initialization
 initializeWidgets
 super initializeWidgets.
-	self content: ListPresenter
+	self content: ListModel

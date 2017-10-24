@@ -2,32 +2,32 @@ protocol
 openOnString
 	<script: '(DynamicSpecExample object: ''Pharo'') open'>
 	
-	| anUI layout bottomLayout temp |	
-	anUI := DynamicComposablePresenter new.
-	anUI title: self title.
-	anUI instantiatePresenters: #( 
-		label LabelPresenter
-		check CheckBoxPresenter
-		text TextInputFieldPresenter
-		button ButtonPresenter ).
+	| ui layout bottomLayout temp |	
+	ui := DynamicComposableModel new.
+	ui title: self title.
+	ui instantiateModels: #( 
+		label LabelModel
+		check CheckBoxModel
+		text TextInputFieldModel
+		button ButtonModel ).
 		
-	anUI label label: object value.
+	ui label label: object value.
 
 			
-	object whenChangedDo: [ :o | anUI label label: o asString ].
+	object whenChangedDo: [ :o | ui label label: o asString ].
 		
-	anUI text 
+	ui text 
 		text: object value;
 		enabled: true;
 		acceptBlock: [ :string | self object: string ].
 	
 	temp := object value.
 	
-	anUI button
+	ui button
 		label: 'reset';
 		state: false;
 		action: [ 
-			anUI text text: temp.
+			ui text text: temp.
 			self object: temp ].
 		
 	layout := SpecLayout composed
@@ -44,14 +44,14 @@ openOnString
 						newRow: [ :r | r add: #label; add: #check width: 100 ] height: 25 ];
 				yourself.
 	
-	anUI check
+	ui check
 		label: 'Label on top';
 		state: true;
 		whenActivatedDo: [ 
-			anUI needFullRebuild: false.
-			anUI buildWithSpecLayout: layout ];
+			ui needFullRebuild: false.
+			ui buildWithSpecLayout: layout ];
 		whenDeactivatedDo: [ 
-			anUI needFullRebuild: false.
-			anUI buildWithSpecLayout: bottomLayout ].
+			ui needFullRebuild: false.
+			ui buildWithSpecLayout: bottomLayout ].
 				
-	anUI openWithSpecLayout: layout.
+	ui openWithSpecLayout: layout.

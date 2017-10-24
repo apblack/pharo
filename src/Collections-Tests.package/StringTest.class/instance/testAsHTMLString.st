@@ -1,4 +1,4 @@
-tests
+testing
 testAsHTMLString
 
 self assert: ('<a>' asHTMLString) = '&lt;a&gt;'.

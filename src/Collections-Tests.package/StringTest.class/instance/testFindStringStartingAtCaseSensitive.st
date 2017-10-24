@@ -1,4 +1,4 @@
-tests
+testing
 testFindStringStartingAtCaseSensitive
 
 self assert: ('éèàôüößäóñíá' findString: 'Á' startingAt: 1 caseSensitive: false) = 12.

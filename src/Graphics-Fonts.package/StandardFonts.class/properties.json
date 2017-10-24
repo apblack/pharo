@@ -7,7 +7,6 @@
 		"TextConstants"
 	],
 	"classvars" : [
-		"BalloonFont",
 		"ButtonFont",
 		"CodeFont",
 		"HaloFont",

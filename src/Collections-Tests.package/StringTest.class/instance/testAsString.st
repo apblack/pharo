@@ -1,4 +1,4 @@
-tests
+testing
 testAsString 
 
 self assert: (123 asString) = '123'.

@@ -1,4 +1,4 @@
-tests - instance variables
+inst-var
 testCreateAccessorsIsValidIfAccessIsMissed
 	| suggestion context |
 	

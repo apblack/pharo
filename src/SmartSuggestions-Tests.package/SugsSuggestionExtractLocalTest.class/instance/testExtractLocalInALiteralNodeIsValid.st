@@ -1,4 +1,4 @@
-tests - valid
+valid
 testExtractLocalInALiteralNodeIsValid
 	| literal context suggestion |
 

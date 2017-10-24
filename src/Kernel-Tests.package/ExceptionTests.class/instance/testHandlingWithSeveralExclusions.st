@@ -1,4 +1,4 @@
-tests - handling
+testing-handling
 testHandlingWithSeveralExclusions
 	| wasHandled |
 	wasHandled := false.

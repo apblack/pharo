@@ -4,5 +4,5 @@ asArray
 		select: [ :c | c isKindOf: SpecTableLayoutAddSpacer ] 
 		thenDo: [ :c | c orientation: self orientation ].
 	
-	^ { #TableContainerPresenter . #layoutProperties: . layoutProperties } , 
+	^ { #TableContainerModel . #layoutProperties: . layoutProperties } , 
 	  (commands flatCollect: #asSpecElements)

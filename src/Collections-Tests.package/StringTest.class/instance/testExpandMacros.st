@@ -1,4 +1,4 @@
-tests - formatting
+testing - formatting
 testExpandMacros
 
 	self

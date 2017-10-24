@@ -1,4 +1,4 @@
-tests - subscribing
+testing
 testSubscribeSend
 	| announcement instance |
 	announcer when: AnnouncementMockA send: #value: to: [ :ann | announcement := ann ].

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ComposablePresenter",
+	"super" : "ComposableModel",
 	"category" : "Keymapping-Tools-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],

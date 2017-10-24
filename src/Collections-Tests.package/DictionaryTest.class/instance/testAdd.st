@@ -1,4 +1,4 @@
-tests - adding
+test - adding
 testAdd
 	"| dict |
 	dict := self emptyDict.

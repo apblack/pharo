@@ -2,7 +2,7 @@ tests
 testDynamicBuild
 
 	| model widget1 widget2 widget3 |
-	model := TestingComposablePresenter new.
+	model := TestingComposableModel new.
  	model openWithSpec close.
 	widget1 := model list widget.
 	

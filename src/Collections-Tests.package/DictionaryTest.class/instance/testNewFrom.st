@@ -1,4 +1,4 @@
-tests - new
+test - new
 testNewFrom
 	| assocs |
 

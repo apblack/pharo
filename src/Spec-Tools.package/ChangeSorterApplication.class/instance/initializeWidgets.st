@@ -1,20 +1,20 @@
 initialization
 initializeWidgets
 
-	methodsListPresenter := self instantiate: FastTablePresenter.
-	classesListPresenter := self instantiate: FastTablePresenter.
-	changesListPresenter := self instantiate: FastTablePresenter.
+	methodsListModel := self instantiate: FastTableModel.
+	classesListModel := self instantiate: FastTableModel.
+	changesListModel := self instantiate: FastTableModel.
 	prettyButton := self newCheckBox.
 	diffButton := self newCheckBox.
-	textPresenter := self newCode.
+	textModel := self newCode.
 	 
 	self setFocus.
 	
-	methodsListPresenter menu: [:menu :shifted | self messageMenu: menu shifted: shifted ].
-	changesListPresenter menu: [:aMenu :shifted | self changeSetMenu: aMenu shifted: shifted  ].
-	classesListPresenter menu: [:aMenu :shifted | self classMenu: aMenu shifted: shifted ].
+	methodsListModel menu: [:menu :shifted | self messageMenu: menu shifted: shifted ].
+	changesListModel menu: [:aMenu :shifted | self changeSetMenu: aMenu shifted: shifted  ].
+	classesListModel menu: [:aMenu :shifted | self classMenu: aMenu shifted: shifted ].
 
-	changesListPresenter items: self model allChanges.
-	changesListPresenter displayBlock: [:item | item name ].
-	textPresenter aboutToStyle: true.
+	changesListModel items: self model allChanges.
+	changesListModel displayBlock: [:item | item name ].
+	textModel aboutToStyle: true.
 	

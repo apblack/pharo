@@ -1,4 +1,4 @@
-tests - instance variables
+inst-var
 testCreateAccessorsIsNotValidIfAccessorsAreAlreadyCreated
 	| suggestion context |
 	

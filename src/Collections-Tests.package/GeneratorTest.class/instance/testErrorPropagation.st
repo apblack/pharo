@@ -1,4 +1,4 @@
-tests
+testing
 testErrorPropagation
 	"Ensure that errors in the generator block are properly propagated"
 

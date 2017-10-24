@@ -1,3 +1,3 @@
-*metacello-core
+*Metacello-Core
 metacelloRegistrationHash
     ^ self hash

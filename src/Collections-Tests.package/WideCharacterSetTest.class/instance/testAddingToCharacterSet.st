@@ -1,4 +1,4 @@
-tests
+testing
 testAddingToCharacterSet
 
 	| cs wcs wc |

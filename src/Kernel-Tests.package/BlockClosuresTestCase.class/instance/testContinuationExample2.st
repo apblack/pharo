@@ -1,4 +1,4 @@
-tests
+testing
 testContinuationExample2
 
    | array |

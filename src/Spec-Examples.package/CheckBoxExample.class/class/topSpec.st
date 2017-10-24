@@ -1,7 +1,7 @@
 specs
 topSpec
 
-	^ { #ContainerPresenter.
+	^ { #ContainerModel.
 			#add:. {{#model .	#button1 } . #layout:.  #(#SpecLayoutFrame
 															rightFraction: 0.33
 															bottomFraction: 0

@@ -1,3 +1,3 @@
-*metacello-core
+*Metacello-Core
 asMetacelloAttributePath
     ^ MetacelloMethodSectionPath withAll: self

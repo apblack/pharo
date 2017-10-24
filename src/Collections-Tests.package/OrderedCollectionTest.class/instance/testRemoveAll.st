@@ -1,4 +1,4 @@
-tests - removing
+testsRemoving
 testRemoveAll
 	"Allows one to remove all elements of a collection" 
 	

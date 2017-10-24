@@ -1,4 +1,4 @@
-tests - creation
+test - creation
 testNewFrom
 	"self debug: #testNewFrom"
 

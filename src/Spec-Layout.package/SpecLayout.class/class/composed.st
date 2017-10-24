@@ -2,5 +2,5 @@ instance creation
 composed
 
 	^self new
-		type: #ContainerPresenter;
+		type: #ContainerModel;
 		yourself

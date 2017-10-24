@@ -7,6 +7,4 @@ activate
 		ifFalse: [ ^ self list ].
 		
 	self installConfiguration.
-	
-	self postConfiguration.
 		

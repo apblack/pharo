@@ -1,4 +1,4 @@
-tests - basic
+basic
 testCollect
 	"self run: #testCollect"
 	

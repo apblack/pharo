@@ -1,4 +1,4 @@
-tests - nodes
+nodes
 testFindBestNodeForMethodNodeItsRBMehod
 	| node |
 

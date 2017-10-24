@@ -2,7 +2,7 @@ initialization
 initializeWidgets
 
 	tree := self newTree.
-	diff := self instantiate: DiffPresenter.
+	diff := self instantiate: DiffModel.
 	message := self newText.
 	author := self newTextInput.
 	authorName := self newLabel.
@@ -16,7 +16,7 @@ initializeWidgets
 	tree 
 		removeOnlyLastSelected: true;
 		autoMultiSelection: true;
-		columns: { TreeColumnPresenter new
+		columns: { TreeColumnModel new
 			displayBlock: [:node | node label ] }.
 			
 	diff

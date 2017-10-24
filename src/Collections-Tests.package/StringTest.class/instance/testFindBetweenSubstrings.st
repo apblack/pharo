@@ -1,4 +1,4 @@
-tests
+testing
 testFindBetweenSubstrings
  
 self assert: ('éèà ôüößäó ñíá' findBetweenSubstrings: #(' ')) asArray = #('éèà' 'ôüößäó' 'ñíá').

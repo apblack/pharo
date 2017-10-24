@@ -1,4 +1,4 @@
-tests - reference
+testing-reference
 testResolvedShouldFindLatestVersion
 	| versionReference reference |
 	versionReference := GoferResolvedReference name: 'GoferFoo-lr.2' repository: self monticelloRepository.

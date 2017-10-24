@@ -1,4 +1,4 @@
-tests
+testing
 testFromString
 	self assert: ((Color fromString: '#FF8800') asHexString sameAs: 'ff8800');
 		assert: ((Color fromString: 'FF8800') asHexString sameAs: 'ff8800');

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "PavelKrivanek 10/11/2017 14:50",
+	"commentStamp" : "<historical>",
 	"super" : "AbstractMorphicAdapter",
 	"category" : "Spec-MorphicAdapters",
 	"classinstvars" : [ ],

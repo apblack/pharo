@@ -1,4 +1,4 @@
-tests
+as yet unclassified
 testRemovePathIfAbsent
 	"Test the remove path if absent method for success and failure modes."
 

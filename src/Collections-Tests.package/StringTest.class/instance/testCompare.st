@@ -1,4 +1,4 @@
-tests
+testing
 testCompare
 
 self assert: ('EEA' compare: 'fgh') = 1.

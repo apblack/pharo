@@ -1,3 +1,3 @@
-*metacello-core
+*Metacello-Core
 metacelloSemanticIntegerLessThanSelf: anInteger
     ^ anInteger < self

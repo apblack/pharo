@@ -7,7 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"registry",
-		"undefinedSymbols",
 		"monticelloRepository",
 		"configurationRepository",
 		"initialWorkingCopyList"

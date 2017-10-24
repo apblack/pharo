@@ -1,4 +1,4 @@
-tests - integrity
+test - integrity
 testIsHealthy
 	| dict |
 	self canBeUnhealthy

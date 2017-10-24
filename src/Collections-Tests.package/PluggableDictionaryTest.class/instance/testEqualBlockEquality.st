@@ -1,4 +1,4 @@
-tests - comparing
+test - comparing
 testEqualBlockEquality
 	| pluggableDict pluggableDict2 equalBlock |
 

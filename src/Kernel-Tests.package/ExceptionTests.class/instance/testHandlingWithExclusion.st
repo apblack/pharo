@@ -1,4 +1,4 @@
-tests - handling
+testing-handling
 testHandlingWithExclusion
 
 	| wasHandled  |

@@ -1,7 +1,7 @@
 specs
 defaultSpec 
 
-	^ {#ContainerPresenter.
+	^ {#ContainerModel.
 			#add: . {{#model . #packageButton.} . #layout: .  #(FrameLayout
 										rightFraction: 0.25
 										bottomFraction: 0

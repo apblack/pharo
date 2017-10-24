@@ -1,4 +1,4 @@
-*metacello-core
+*Metacello-Core
 setTimestampInMetacelloConfig: aMetacelloConfig
 
 	aMetacelloConfig setTimestampWithBlock: self

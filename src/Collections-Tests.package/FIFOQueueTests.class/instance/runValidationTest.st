@@ -1,4 +1,4 @@
-running
+tests
 runValidationTest
 	| q sema prio pusher feeder
 		feeders r crit done |

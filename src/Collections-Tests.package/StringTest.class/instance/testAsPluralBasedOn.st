@@ -1,4 +1,4 @@
-tests
+testing
 testAsPluralBasedOn
 
 self assert: ('test' asPluralBasedOn: #(1)) = 'test'.

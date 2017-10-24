@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "DynamicComposablePresenter",
+	"super" : "DynamicComposableModel",
 	"category" : "Spec-Debugger",
 	"classinstvars" : [ ],
 	"pools" : [ ],

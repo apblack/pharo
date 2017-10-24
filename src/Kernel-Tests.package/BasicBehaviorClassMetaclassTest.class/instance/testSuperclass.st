@@ -1,4 +1,4 @@
-tests
+testing
 testSuperclass
 	"self debug: #testSuperclass"
 

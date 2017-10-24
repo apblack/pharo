@@ -1,4 +1,4 @@
-tests
+testing
 testGrowWhenNecessary
 	| ws objs initialSize |
 	objs := (2 to: 20) collect: [:i | 1 / i].

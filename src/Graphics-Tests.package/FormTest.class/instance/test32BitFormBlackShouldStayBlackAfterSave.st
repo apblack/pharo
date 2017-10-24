@@ -1,4 +1,4 @@
-tests - 32 bit
+tests
 test32BitFormBlackShouldStayBlackAfterSave
 	"Solve bug: https://pharo.fogbugz.com/f/cases/14619/Strange-behavior-of-TestRunner-Icon"
 

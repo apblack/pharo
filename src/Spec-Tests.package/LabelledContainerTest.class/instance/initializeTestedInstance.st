@@ -1,3 +1,3 @@
 running
 initializeTestedInstance
-	testedInstance content: TestingComposablePresenter.
+	testedInstance content: TestingComposableModel.

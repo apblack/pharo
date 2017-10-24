@@ -1,4 +1,4 @@
-tests - valid
+valid
 testExtractLocalInASequenceNodeWithMoreSentencesIsNotValid
 	| multipleLines context suggestion |
 	

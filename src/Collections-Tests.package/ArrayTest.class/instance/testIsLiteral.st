@@ -1,4 +1,4 @@
-tests
+testing
 testIsLiteral
 	"We work with a copy of literalArray, to avoid corrupting the code."
 	

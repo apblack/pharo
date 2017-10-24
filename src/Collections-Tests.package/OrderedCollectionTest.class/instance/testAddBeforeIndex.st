@@ -1,4 +1,4 @@
-tests - public methods
+testing-public methods
 testAddBeforeIndex
 	"self run: #testAddBeforeIndex"
 	| l |

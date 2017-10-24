@@ -1,4 +1,4 @@
-tests - handling
+testing-handling
 testHandlerFromAction
 	"A test ensuring that nested exceptions work as expected."
 

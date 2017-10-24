@@ -1,1 +1,1 @@
-SUnit tests for class SHStyleElement
+I am testing the class SHStyleElement

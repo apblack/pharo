@@ -1,4 +1,4 @@
-tests - formatting
+testing - formatting
 testFormatExtended
 
 	self

@@ -3,6 +3,6 @@ ensureKeyBindingsFor: aWidget
 
 	super ensureKeyBindingsFor: aWidget.
 	
-	self registerChangeSetShortcuts: changesListPresenter.
-	self registerClassShortcuts: classesListPresenter.
-	self registerMethodShortcuts: methodsListPresenter.
+	self registerChangeSetShortcuts: changesListModel.
+	self registerClassShortcuts: classesListModel.
+	self registerMethodShortcuts: methodsListModel.

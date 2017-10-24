@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
-	text := self instantiate: TextInputFieldPresenter.
+	text := self instantiate: TextInputFieldModel.
 	text
 		text: 'Object is nil';
 		enabled: false.

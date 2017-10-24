@@ -77,7 +77,9 @@ defaultAction
 	Smalltalk exitFailure
 ! !    
 
-SmalltalkImage classPool at: #SpecialSelectors put: #(#+ #- #< #> #'<=' #'>=' #= #'~=' #* #/ #'\\' #@ #bitShift: #'//' #bitAnd: #bitOr: #at: #at:put: #size #next #nextPut: #atEnd #'==' nil "class" #'~~' #value #value: #do: #new #new: #x #y).
+SmalltalkImage classPool at: #SpecialSelectors put: #(#+ 1 #- 1 #< 1 #> 1 #''<='' 1 #''>='' 1 #= 1 #''~='' 1 
+#* 1 #/ 1 #''\\'' 1 #@ 1 #bitShift: 1 #''//'' 1 #bitAnd: 1 #bitOr: 1 #at: 1 #at:put: 2 #size 0 #next 0 
+#nextPut: 1 #atEnd 0 #''=='' 1 #class 0 #blockCopy: 1 #value 0 #value: 1 #do: 1 #new 0 #new: 1 #x 0 #y 0).
 
 Class instVarNamed: #subclasses put: (Array with: ProtoObject class).
 ProtoObject class classLayout slotScope parentScope: Class classLayout slotScope.

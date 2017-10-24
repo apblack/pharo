@@ -1,4 +1,4 @@
-tests - repositories - options
+testing-repositories-options
 testPackageCache
 	gofer squeaksource: 'r1'; squeaksource: 'r2'.
 	

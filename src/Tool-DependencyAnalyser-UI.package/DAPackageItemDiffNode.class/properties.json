@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "BaptisteQuide 8/8/2014 17:51",
-	"super" : "TreeNodePresenter",
+	"super" : "TreeNodeModel",
 	"category" : "Tool-DependencyAnalyser-UI-Nodes",
 	"classinstvars" : [ ],
 	"pools" : [ ],

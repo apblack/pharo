@@ -1,4 +1,4 @@
-tests
+testing
 testAt
 	| array |
 	array := IntegerArray new: 5 withAll: 2.

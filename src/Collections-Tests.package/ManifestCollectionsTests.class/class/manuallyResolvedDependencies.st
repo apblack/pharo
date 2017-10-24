@@ -1,3 +1,3 @@
 meta-data - dependency analyser
 manuallyResolvedDependencies
-	^ #(#Traits #'Collections-Arithmetic' #'Transcript-Core')
+	^ #(#Traits #'Collections-Arithmetic' #Transcript)

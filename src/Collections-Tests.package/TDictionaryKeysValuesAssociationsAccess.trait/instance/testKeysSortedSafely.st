@@ -1,4 +1,4 @@
-tests - dictionary keys values associations access
+tests - Dictionary keys values associations access
 testKeysSortedSafely
 	| collection result |
 	collection := self nonEmpty.

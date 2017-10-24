@@ -1,4 +1,4 @@
-tests - reading
+reading
 testBmp8Bit
 	| reader form |
 	reader := BMPReadWriter new on: self bmpData8bit readStream.

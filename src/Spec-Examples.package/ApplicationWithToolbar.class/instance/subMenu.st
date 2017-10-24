@@ -1,7 +1,7 @@
 initialization
 subMenu 
 
-	^ MenuPresenter new
+	^ MenuModel new
 		addGroup: [ :group |
 			group addItem: [ :item |
 				item

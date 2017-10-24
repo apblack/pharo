@@ -4,7 +4,7 @@ buildRoots
 		select: [ :each | (each isCache not) and: [ each isRemote ] ]
 		thenCollect: [ :each | | remote  |			
 			remote := each koRemote.
-			TreeNodePresenter new
+			TreeNodeModel new
 				content: remote;
 				hasContentToShow: true;
 				selected: ( selectedRemotes includes: each );

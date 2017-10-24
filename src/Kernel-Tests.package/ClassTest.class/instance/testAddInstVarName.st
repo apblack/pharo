@@ -1,4 +1,4 @@
-tests
+testing
 testAddInstVarName
 	"self run: #testAddInstVarName"
 

@@ -1,4 +1,4 @@
-tests
+testing
 testReduceRight3Arguments
 	| block |
 	block := [ :a :b :c | Array with: a with: b with: c ].

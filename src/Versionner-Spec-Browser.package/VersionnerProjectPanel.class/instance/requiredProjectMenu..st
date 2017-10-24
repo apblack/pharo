@@ -1,14 +1,14 @@
 accessing-ui
 requiredProjectMenu: aMenu
-	aMenu addMenuGroup: (MenuGroupPresenter new
-		addMenuItem: (MenuItemPresenter new
+	aMenu addMenuGroup: (MenuGroupModel new
+		addMenuItem: (MenuItemModel new
 			name: #'browse project';
 			action: [ self browseSelectedProject ]);
-		addMenuItem: (MenuItemPresenter new
+		addMenuItem: (MenuItemModel new
 			name: #'edit version';
 			action: [ self projectBoundToSelection editVersion.
 					projectList roots: project requiredProjects ]);
-		addMenuItem: (MenuItemPresenter new
+		addMenuItem: (MenuItemModel new
 			name: #'edit repositories';
 			action: [ self projectBoundToSelection editRepositories ]);
 		yourself).

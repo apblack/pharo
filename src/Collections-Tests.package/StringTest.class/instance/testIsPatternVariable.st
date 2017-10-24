@@ -1,4 +1,4 @@
-tests
+testing
 testIsPatternVariable
 
 	self assert: '`pattern' isPatternVariable.

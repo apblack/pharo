@@ -10,4 +10,4 @@ baseline10: spec
                     spec
                         includes: 'Example-AddOn';
                         file: 'Example-Core-anon.1';
-                        repository: self directoryForPlatform ] ]
+                        repository: '/opt/mcexamples' ] ]

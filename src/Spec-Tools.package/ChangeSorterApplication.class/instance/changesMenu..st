@@ -1,4 +1,4 @@
 api
 changesMenu: aBlock
 
-	changesListPresenter menu: aBlock
+	changesListModel menu: aBlock

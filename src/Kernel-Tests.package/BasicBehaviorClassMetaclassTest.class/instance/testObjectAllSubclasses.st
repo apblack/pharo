@@ -1,4 +1,4 @@
-tests
+testing
 testObjectAllSubclasses
 	"self run: #testObjectAllSubclasses"
 

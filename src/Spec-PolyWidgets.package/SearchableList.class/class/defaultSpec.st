@@ -2,6 +2,6 @@ specs
 defaultSpec
 
 	^ SpecLayout composed
-		newRow: #searchPresenter height: self toolbarHeight;
-		add: #listPresenter top: self toolbarHeight;
+		newRow: #searchModel height: self toolbarHeight;
+		add: #listModel top: self toolbarHeight;
 		yourself

@@ -1,4 +1,4 @@
-tests
+testing
 testAtPutFraction
 
 	pointArray at: 2 put: 1/2 @ 51/5.

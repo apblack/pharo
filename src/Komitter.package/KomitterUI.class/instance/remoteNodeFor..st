@@ -1,5 +1,5 @@
 private
 remoteNodeFor: e
 
-	^ TreeNodePresenter new
+	^ TreeNodeModel new
 		content: e content package workingCopy

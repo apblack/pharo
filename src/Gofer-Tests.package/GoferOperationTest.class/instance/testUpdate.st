@@ -1,4 +1,4 @@
-tests
+testing
 testUpdate
 	| initial |
 	initial := gofer copy.

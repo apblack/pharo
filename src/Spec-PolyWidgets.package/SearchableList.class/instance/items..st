@@ -1,3 +1,3 @@
 accessing
 items: aCollection
-	listPresenter items: aCollection
+	listModel items: aCollection

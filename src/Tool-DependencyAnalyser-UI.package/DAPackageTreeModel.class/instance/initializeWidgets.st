@@ -4,11 +4,11 @@ initializeWidgets
 		multiSelection: true;
 		on: $b meta
 			do: [ self selectedItemFromTree browseInOtherNautilus ];
-		columns: {(TreeColumnPresenter new displayBlock: [ :node | node label ])};
+		columns: {(TreeColumnModel new displayBlock: [ :node | node label ])};
 		yourself.
 	buttonRefresh := self newButton
 		icon: (self iconNamed: #refreshIcon);
-		help: 'Refresh the TreePresenter';
+		help: 'Refresh the TreeModel';
 		label: 'Refresh';
 		yourself.
 	packageTreeNautilus := Nautilus new

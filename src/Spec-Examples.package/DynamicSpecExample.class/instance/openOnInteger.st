@@ -2,29 +2,29 @@ protocol
 openOnInteger
 	<script: '(DynamicSpecExample object: 42) open'>
 	
-	| anUI layout |
+	| ui layout |
 	
-	anUI := DynamicComposablePresenter new.
-	anUI title: self title.
-	anUI instantiatePresenters: #( 
-		text LabelPresenter
-		plus ButtonPresenter
-		minus ButtonPresenter ).
+	ui := DynamicComposableModel new.
+	ui title: self title.
+	ui instantiateModels: #( 
+		text LabelModel
+		plus ButtonModel
+		minus ButtonModel ).
 		
-	anUI text label: object value asString.
-	anUI minus 
+	ui text label: object value asString.
+	ui minus 
 		label: '-';
 		state: false;
 		action: 	[ 
 			object value: object value -1.
-			anUI text label: object value asString ].
+			ui text label: object value asString ].
 
-	anUI plus 
+	ui plus 
 		label: '+';
 		state: false;
 		action: 	[ 
 			object value: object value +1.
-			anUI text label: object value asString ].
+			ui text label: object value asString ].
 	
 	layout := SpecLayout composed
 		newColumn: [ :c |
@@ -33,4 +33,4 @@ openOnInteger
 				newRow: [ :r | r add: #minus ; addSplitter; add: #plus ] height: 25 ];
 		yourself.
 				
-	anUI openWithSpecLayout: layout.
+	ui openWithSpecLayout: layout.

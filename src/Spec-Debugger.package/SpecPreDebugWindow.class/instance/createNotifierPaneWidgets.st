@@ -1,7 +1,7 @@
 building widgets
 createNotifierPaneWidgets
 
-	self instantiatePresenters: self buildNotifierPaneWidgetsSpec.
+	self instantiateModels: self buildNotifierPaneWidgetsSpec.
 	(self widgets keys includes: #codePane) ifTrue: [ 
 		(self widgets at: #codePane) beForText.
 	].

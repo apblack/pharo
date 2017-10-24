@@ -1,4 +1,4 @@
-tests - testing
+test - testing
 testIsDictionary
 	self deny: Object new isDictionary.
 	self assert: nonEmptyDict isDictionary.

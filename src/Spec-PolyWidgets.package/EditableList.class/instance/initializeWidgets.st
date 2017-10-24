@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
-	list := self instantiate: FastTablePresenter.
+	list := self instantiate: FastTableModel.
 	addButton := self newButton.
 	removeButton := self newButton.
 	upButton := self newButton.

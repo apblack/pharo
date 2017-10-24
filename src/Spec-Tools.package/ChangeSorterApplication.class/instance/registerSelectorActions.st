@@ -1,5 +1,5 @@
 initialization
 registerSelectorActions
 
-	methodsListPresenter whenSelectedItemChanged: [:selector |
+	methodsListModel whenSelectedItemChanged: [:selector |
 		self updateTextContents ]

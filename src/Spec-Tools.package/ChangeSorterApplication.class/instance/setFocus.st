@@ -2,7 +2,7 @@ initialization
 setFocus
 
 	self focusOrder
-		add: changesListPresenter;
-		add: classesListPresenter;
-		add: methodsListPresenter;
-		add: textPresenter.
+		add: changesListModel;
+		add: classesListModel;
+		add: methodsListModel;
+		add: textModel.

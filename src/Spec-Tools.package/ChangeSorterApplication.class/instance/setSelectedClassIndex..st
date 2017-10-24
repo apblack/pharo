@@ -1,4 +1,4 @@
 api
 setSelectedClassIndex: anIndex
 
-	 ^ classesListPresenter setSelectedIndex: anIndex
+	 ^ classesListModel setSelectedIndex: anIndex

@@ -1,4 +1,4 @@
-tests - removing
+test - removing
 testRemoveKey
 	"self debug: #testRemoveKey"
 

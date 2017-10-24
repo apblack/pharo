@@ -4,5 +4,5 @@ parts
 		(#Kernel -> #()) .
 		(#Monticello -> #()) .
 		(#'PharoBootstrap-Initialization' -> #()) .
-		(#'Transcript-NonInteractive' -> #())
+		(#'NonInteractiveTranscript' -> #())
 	}

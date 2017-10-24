@@ -1,3 +1,3 @@
 font accessing
 balloonFont: aFont
-	BalloonFont := aFont
+	BalloonMorph balloonFont: aFont

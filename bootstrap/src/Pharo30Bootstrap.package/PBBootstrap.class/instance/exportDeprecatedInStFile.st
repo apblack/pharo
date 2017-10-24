@@ -2,6 +2,6 @@ preparation
 exportDeprecatedInStFile
 
 	self
-		exportPackages: #( 'DeprecatedFileStream' )
-		intoFile: 'DeprecatedFileStream.st'
+		exportPackages: #( 'Deprecated70' )
+		intoFile: 'Deprecated70.st'
 		

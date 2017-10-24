@@ -1,4 +1,4 @@
-tests
+testing
 testLastSpacePosition
 
 self assert: ('fred the bear' lastSpacePosition) = 9.

@@ -2,5 +2,5 @@ initialization
 initialize 
 	super initialize.
 	
-	type := #ContainerPresenter.
+	type := #ContainerModel.
 	self commands: OrderedCollection new.

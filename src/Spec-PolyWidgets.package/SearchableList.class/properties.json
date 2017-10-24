@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "PavelKrivanek 10/11/2017 14:22",
-	"super" : "ComposablePresenter",
+	"commentStamp" : "<historical>",
+	"super" : "ComposableModel",
 	"category" : "Spec-PolyWidgets-ListAndTree",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"listPresenter",
-		"searchPresenter"
+		"listModel",
+		"searchModel"
 	],
 	"name" : "SearchableList",
 	"type" : "normal"

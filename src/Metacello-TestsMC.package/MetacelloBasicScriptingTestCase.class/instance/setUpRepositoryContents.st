@@ -10,6 +10,6 @@ setUpRepositoryContents
     sourceRepo: MetacelloScriptingResource current externalRepository
     targetRepo: (MCFileTreeRepository new directory: externalDirectory).
   self
-    setUpRepositoryContents: self sampleRepositoryContents
+    setUpRepositoryContents: #('Sample-CoreX-dkh.1')
     sourceRepo: MetacelloScriptingResource current sampleRepository
     targetRepo: (MCFileTreeRepository new directory: sampleDirectory)

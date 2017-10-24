@@ -1,4 +1,4 @@
-tests - basic
+basic
 testEquals
 	"self run: #testEquals"
 	"self debug: #testEquals"

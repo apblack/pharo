@@ -1,4 +1,4 @@
-tests
+testing
 testAnnouncingReentrant
 	" Test that it is safe to announce when handling announcement,
 	so announcer are reentrant "

@@ -1,1 +1,1 @@
-Wrapper for dependent package (use in TreePresenter)
+Wrapper for dependent package (use in TreeModel)

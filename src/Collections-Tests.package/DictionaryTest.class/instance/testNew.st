@@ -1,4 +1,4 @@
-tests - new
+test - new
 testNew
 	| d |
 	d := self classToBeTested new: 10.

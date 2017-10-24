@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "TorstenBergmann 10/12/2017 20:30",
+	"commentStamp" : "",
 	"super" : "TestCase",
 	"category" : "Kernel-Tests-Objects",
 	"classinstvars" : [ ],

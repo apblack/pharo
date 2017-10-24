@@ -1,4 +1,4 @@
-tests
+testing
 testGpsExample2
 
   | result array |

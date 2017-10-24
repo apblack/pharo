@@ -1,4 +1,4 @@
-private
+exception description
 isResumable
 
 	^true

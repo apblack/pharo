@@ -1,4 +1,4 @@
-tests
+testing
 testPrinting
 	"self debug: #testPrinting"
 	

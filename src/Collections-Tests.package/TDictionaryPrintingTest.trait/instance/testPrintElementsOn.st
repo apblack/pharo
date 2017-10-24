@@ -1,4 +1,4 @@
-tests - printing
+test - printing
 testPrintElementsOn
 	| str |
 	str := String new writeStream.

@@ -1,4 +1,4 @@
-tests
+testing
 testEndsWithAnyOf
 
 self deny: ('éèàôüößäóñíá' endsWithAnyOf: #('ia' 'ñí' '' 'áß')).

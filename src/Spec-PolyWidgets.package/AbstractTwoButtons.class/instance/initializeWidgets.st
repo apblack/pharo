@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
-	firstButton := self instantiate: ButtonPresenter.
-	secondButton := self instantiate: ButtonPresenter.
+	firstButton := self instantiate: ButtonModel.
+	secondButton := self instantiate: ButtonModel.
 	self initializeButtons.
 	self focusOrder
 		add: firstButton;

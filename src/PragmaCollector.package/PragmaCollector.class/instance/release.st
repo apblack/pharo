@@ -1,6 +1,6 @@
 dependents access
 release
 	self noMoreNotifications.
-	self destroyAnnouncer.
+	announcer := nil.
 	collected := nil.
 	super release

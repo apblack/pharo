@@ -1,9 +1,9 @@
 examples
 exampleWindowWithToolbars
 	"Open an example window with toolbars."
+
 	"self exampleWindowWithToolbars"
-	<script>
-	
+
 	| win fileMenu tools dock text holder |
 	win := StandardWindow new.
 	fileMenu := win newMenu.
@@ -56,11 +56,11 @@ exampleWindowWithToolbars
 				getEnabled: nil
 				labelForm: (self iconNamed: #smallPrintIcon)
 				help: 'Print' translated)}.
-	holder := NewValueHolder new.
+	holder := ValueHolder new.
 	text := win
 		newTextEditorFor: holder
-		getText: #value
-		setText: #value:.
+		getText: #contents
+		setText: #contents:.
 	dock := win newToolDockingBar.
 	dock
 		add: 'File' translated

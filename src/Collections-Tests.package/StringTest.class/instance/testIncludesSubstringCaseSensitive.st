@@ -1,4 +1,4 @@
-tests
+testing
 testIncludesSubstringCaseSensitive
 
 self deny: ('test this string' includesSubstring: 'Ring' caseSensitive: true ). 

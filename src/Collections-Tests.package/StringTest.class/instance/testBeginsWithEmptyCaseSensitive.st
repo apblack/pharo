@@ -1,4 +1,4 @@
-tests
+testing
 testBeginsWithEmptyCaseSensitive
 
 self deny: ('éèàôüößäóñíá' beginsWithEmpty: 'ß' caseSensitive: true).

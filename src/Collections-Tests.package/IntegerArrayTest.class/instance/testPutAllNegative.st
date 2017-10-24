@@ -1,4 +1,4 @@
-tests
+testing
 testPutAllNegative
 	| array |
 	array := IntegerArray new: 2.

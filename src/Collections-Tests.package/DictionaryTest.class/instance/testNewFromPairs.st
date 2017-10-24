@@ -1,4 +1,4 @@
-tests - new
+test - new
 testNewFromPairs
 	| assocs pairs |
 

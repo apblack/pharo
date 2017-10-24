@@ -1,4 +1,4 @@
-tests - rounding
+test - rounding
 testRounding
         "
         self debug: #testRounding

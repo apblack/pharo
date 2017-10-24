@@ -1,9 +1,9 @@
 initialization
 initializeWidgets
 
-	listPresenter := self newList.
-	searchPresenter := self newTextInput.
+	listModel := self newList.
+	searchModel 	:= self newTextInput.
 		
-	searchPresenter 
+	searchModel 
 		autoAccept: true;
 		ghostText: 'filter'.

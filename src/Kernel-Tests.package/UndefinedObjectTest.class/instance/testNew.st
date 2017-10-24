@@ -1,4 +1,4 @@
-tests - class methods
+tests - Class Methods
 testNew
 
 	self should: [ UndefinedObject new] raise: Error.

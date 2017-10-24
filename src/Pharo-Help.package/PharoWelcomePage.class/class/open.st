@@ -6,14 +6,14 @@ open
 	welcome := WelcomeHelp open.
 	help := HelpBrowser open.
 
-	zen := TextPresenter new
+	zen := TextModel new
 			text: ProfStef pharoZenValuesContents;
 			title: 'Pharo Zen';
 			aboutText: ProfStef aboutPharoZen;
 			beForText;
 			openWithSpec.
 			
-	about := TextPresenter new
+	about := TextModel new
 			text: Smalltalk systemInformationString withCRs;
 			title: 'About Pharo';
 			beForText;

@@ -1,4 +1,4 @@
-tests
+testing
 testReadFrom
 	self 
 		assert: (String readFrom: ($' asString, 'foo', $' asString) readStream)

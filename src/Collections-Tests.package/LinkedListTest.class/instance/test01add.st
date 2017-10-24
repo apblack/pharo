@@ -1,4 +1,4 @@
-tests
+testing
 test01add
 	self assert: list isEmpty.
 	list add: link1.

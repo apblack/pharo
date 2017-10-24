@@ -1,4 +1,4 @@
-tests
+testing
 testIncludesSubstring
 
 self assert: ('testing this string' includesSubstring: 'ring'). 

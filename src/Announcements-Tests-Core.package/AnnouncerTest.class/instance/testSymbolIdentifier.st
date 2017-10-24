@@ -1,4 +1,4 @@
-tests
+testing
 testSymbolIdentifier
 	| passed |
 	passed := false.

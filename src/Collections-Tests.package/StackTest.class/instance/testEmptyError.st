@@ -1,4 +1,4 @@
-tests
+test
 testEmptyError
 	| aStack |
 	aStack := Stack new.

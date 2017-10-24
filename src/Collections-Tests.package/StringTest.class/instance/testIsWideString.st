@@ -1,4 +1,4 @@
-tests
+testing
 testIsWideString
 
 self assert: ('€₤' isWideString).

@@ -1,4 +1,4 @@
-tests - outer
+testing-outer
 testResumableOuter
 
 	| result |

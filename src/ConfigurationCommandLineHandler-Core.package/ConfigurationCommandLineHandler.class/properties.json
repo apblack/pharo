@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "RafaelLuque 10/18/2017 19:48",
+	"commentStamp" : "TorstenBergmann 2/6/2014 08:17",
 	"super" : "CommandLineHandler",
 	"category" : "ConfigurationCommandLineHandler-Core",
 	"classinstvars" : [ ],

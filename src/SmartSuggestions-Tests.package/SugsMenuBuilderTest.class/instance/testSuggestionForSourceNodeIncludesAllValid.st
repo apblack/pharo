@@ -1,4 +1,4 @@
-tests - suggestions by selection
+suggstions-by-selection
 testSuggestionForSourceNodeIncludesAllValid
 	| suggestions expected context |
 	context := SugsMockContext sourceContext.

@@ -1,4 +1,4 @@
-tests - basic
+basic
 testRemoveAll
 	"Allows one to remove all elements of a collection" 
 	

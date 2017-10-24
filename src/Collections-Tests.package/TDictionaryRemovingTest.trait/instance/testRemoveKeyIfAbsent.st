@@ -1,4 +1,4 @@
-tests - removing
+test - removing
 testRemoveKeyIfAbsent
 	
 	| collection oldSize keyIn value result |

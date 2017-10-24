@@ -1,4 +1,4 @@
-tests - comparing
+test - comparing
 testEquality
 	| nonEmptyDict2 |
 	nonEmptyDict2 := self nonEmpty class new.

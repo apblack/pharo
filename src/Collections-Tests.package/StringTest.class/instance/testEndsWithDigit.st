@@ -1,4 +1,4 @@
-tests
+testing
 testEndsWithDigit
 
 self deny: ('éèàôüößäóñíá' endsWithDigit).

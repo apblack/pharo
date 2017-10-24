@@ -1,4 +1,4 @@
-tests - set arithmetic
+test - set arithmetic
 collectionClass
 
 	^ Bag

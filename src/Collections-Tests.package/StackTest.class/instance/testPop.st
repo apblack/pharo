@@ -1,4 +1,4 @@
-tests
+test
 testPop
 
 	| aStack res elem |

@@ -5,4 +5,4 @@ remove
 	self okToChange ifFalse: [^ self].
 	self model removeChangeSet: self selectedChangeSet prompting: true.
 	self updateChangesList.
-	changesListPresenter resetSelection
+	changesListModel resetSelection

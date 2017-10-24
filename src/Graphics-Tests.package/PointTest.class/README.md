@@ -1,1 +1,1 @@
-SUnit tests for class Point
+This is the unit test for the class Point. 

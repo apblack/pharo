@@ -1,4 +1,4 @@
-tests
+testing
 testAlike
 
 self assert: ('test' alike: 'test') >= 8.   "twice second argument size is the best score"

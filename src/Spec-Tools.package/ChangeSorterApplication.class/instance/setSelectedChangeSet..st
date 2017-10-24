@@ -1,4 +1,4 @@
 api
 setSelectedChangeSet: aChangeSet
 
-	 ^ changesListPresenter setSelectedItem: aChangeSet
+	 ^ changesListModel setSelectedItem: aChangeSet

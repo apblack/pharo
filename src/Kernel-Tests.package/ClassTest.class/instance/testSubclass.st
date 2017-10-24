@@ -1,4 +1,4 @@
-tests - class creation
+classcreation
 testSubclass
 	| cls |
 	(Smalltalk globals includesKey: #SubclassExample)

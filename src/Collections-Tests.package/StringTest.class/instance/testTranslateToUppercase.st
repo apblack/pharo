@@ -1,4 +1,4 @@
-tests
+testing
 testTranslateToUppercase
 
 self assert: ('test this string' translateToUppercase) = 'TEST THIS STRING'.

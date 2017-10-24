@@ -1,4 +1,4 @@
-tests
+testing
 testAddIncludesSizeReclaim
 	| ws o2 o3 |
 	o2 := 1/2.

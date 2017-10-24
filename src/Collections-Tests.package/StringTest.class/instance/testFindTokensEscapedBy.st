@@ -1,4 +1,4 @@
-tests
+testing
 testFindTokensEscapedBy
 
 |s|

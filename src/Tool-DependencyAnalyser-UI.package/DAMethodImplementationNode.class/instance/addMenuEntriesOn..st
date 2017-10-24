@@ -4,7 +4,7 @@ addMenuEntriesOn: aMenuGroup
 	method := self content.
 	aMenuGroup
 		addMenuItem:
-			(MenuItemPresenter new
+			(MenuItemModel new
 				name: 'Select this package as the right dependency';
 				action:
 					[(TheManifestBuilder of: self packageUnderAnalysis packageManifest)

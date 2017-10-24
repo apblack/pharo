@@ -1,4 +1,4 @@
 api
-highlightedItem: aTreeNodePresenter
+highlightedItem: aTreeNodeModel
 	
-	tree highlightedItem: aTreeNodePresenter
+	tree highlightedItem: aTreeNodeModel

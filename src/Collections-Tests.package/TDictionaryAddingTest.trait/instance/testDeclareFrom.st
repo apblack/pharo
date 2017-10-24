@@ -1,4 +1,4 @@
-tests - adding
+test - adding
 testDeclareFrom
 	| newDict v dictionary keyIn associationKeyNotIn |
 	dictionary := self nonEmptyDict.

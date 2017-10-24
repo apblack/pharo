@@ -1,4 +1,4 @@
-*metacello-core
+*Metacello-Core
 setDescriptionInMetacelloConfig: aMetacelloConfig
 
 	aMetacelloConfig setDescriptionWithString: self

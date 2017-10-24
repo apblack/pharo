@@ -1,4 +1,4 @@
-tests - creation
+test - creation
 testReadFromString
 	"self debug: #testReadFromString"
 

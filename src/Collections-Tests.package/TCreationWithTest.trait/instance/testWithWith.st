@@ -1,4 +1,4 @@
-tests - creation
+test - creation
 testWithWith
 	"self debug: #testWithWith"
 	

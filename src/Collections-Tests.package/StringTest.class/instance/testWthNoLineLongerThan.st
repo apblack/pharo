@@ -1,4 +1,4 @@
-tests - lines
+testing - lines
 testWthNoLineLongerThan
 	| phrases |
 	phrases := {

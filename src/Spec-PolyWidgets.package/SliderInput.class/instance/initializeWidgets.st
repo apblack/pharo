@@ -1,5 +1,5 @@
 initialization
 initializeWidgets
-	slider := self instantiate: SliderPresenter.
-	input := self instantiate: TextInputFieldPresenter.
+	slider := self instantiate: SliderModel.
+	input := self instantiate: TextInputFieldModel.
 	self focusOrder add: input

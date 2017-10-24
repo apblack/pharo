@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
 	"configurations"
-	configurationList := (self instantiate: FastTablePresenter)
+	configurationList := (self instantiate: FastTableModel)
 		icons: [ :configuration | self iconForConfiguration: configuration ];
 		displayBlock: [:item | item asString ]; 
 		"iconMaxSize: 16@16;"

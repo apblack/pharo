@@ -1,4 +1,4 @@
-tests - equality
+test - equality
 testEqualSign
 	"self debug: #testEqualSign"
 

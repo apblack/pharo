@@ -3,36 +3,32 @@ linearLoadPackageSpec: packageSpec gofer: gofer
   MetacelloPlatform current
     do: [ 
       | references nearestReference cachedReference externalReference mcVersion loadedVersionInfos |
-      cachedReference := nil.
-      packageSpec
-        searchCacheRepositoryForPackage: [ 
-          "check to see if mcz file is already in cacheRepository"
-          cachedReference := self
-            resolvePackageSpec: packageSpec
-            cachedGofer: self loaderPolicy cacheGofer.
-          (cachedReference ~~ nil and: [ packageSpec getFile ~~ nil ])
+      "check to see if mcz file is already in cacheRepository"
+      cachedReference := self
+        resolvePackageSpec: packageSpec
+        cachedGofer: self loaderPolicy cacheGofer.
+      (cachedReference ~~ nil and: [ packageSpec getFile ~~ nil ])
+        ifTrue: [ 
+          cachedReference name = packageSpec file
             ifTrue: [ 
-              cachedReference name = packageSpec file
-                ifTrue: [ 
-                  "exact match between packageSpec file and cache"
-                  ^ self
-                    scheduleFetchFor: packageSpec
-                    cachedReference: cachedReference ] ] ].
+              "exact match between packageSpec file and cache"
+              ^ self
+                scheduleFetchFor: packageSpec
+                cachedReference: cachedReference ] ].	"look up mcz file"
       references := self
         retryingResolvePackageSpecReferences: packageSpec
-        gofer: gofer.	"look up mcz file"
-      nearestReference := references last asMetacelloCachingResolvedReference.
+        gofer: gofer.
+      nearestReference := references last asMetacelloCachingResolvedReference.	"If the mcz is already in the cacheRepository, no need to copy"
       (cachedReference ~~ nil
         and: [ cachedReference name = nearestReference name ])
         ifTrue: [ 
           "latest reference in repository matches cachedReference ... "
           ^ self
             scheduleFetchFor: packageSpec
-            nearestReference: nearestReference ].
+            nearestReference: nearestReference ].	"If the mcz is already loaded into the image, no need to copy"
       (self ignoreImage not
         and: [ (loadedVersionInfos := self ancestorsFor: packageSpec) ~~ nil ])
         ifTrue: [ 
-          "If the mcz is already loaded into the image, no need to copy"
           loadedVersionInfos
             do: [ :info | 
               info name = nearestReference name

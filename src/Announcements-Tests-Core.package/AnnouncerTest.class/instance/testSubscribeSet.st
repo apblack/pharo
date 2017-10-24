@@ -1,4 +1,4 @@
-tests - subscribing
+testing
 testSubscribeSet
 	| announcement instance |
 	announcer

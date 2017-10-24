@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TextInputFieldPresenterTest",
+	"super" : "TextInputFieldModelTest",
 	"category" : "Spec-Tests-PolyWidgets-Labelled",
 	"classinstvars" : [ ],
 	"pools" : [ ],

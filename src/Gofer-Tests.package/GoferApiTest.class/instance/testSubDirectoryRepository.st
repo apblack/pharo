@@ -1,4 +1,4 @@
-tests - repositories
+testing-repositories
 testSubDirectoryRepository
 	Smalltalk globals
 		at: #MCSubDirectoryRepository

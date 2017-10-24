@@ -1,4 +1,4 @@
-tests
+testing
 testAsDate
 
 self assert: ('Jan 1 2015' asDate asString) = '1 January 2015'. 

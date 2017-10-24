@@ -1,4 +1,4 @@
 accessing
 bindings
 
-	^ self defaultBindings 
+	^ bindings ifNil: [ bindings := self defaultBindings ]

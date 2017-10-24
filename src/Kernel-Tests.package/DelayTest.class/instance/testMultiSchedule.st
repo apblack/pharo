@@ -1,4 +1,4 @@
-tests - limits
+testing-limits
 testMultiSchedule
 	"Ensure that scheduling the same delay twice raises an error"
 	| delay |

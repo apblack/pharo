@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
-	packagesList := (self instantiate: TreePresenter)
+	packagesList := (self instantiate: TreeModel)
 		dragEnabled: true;
 		whenBuiltDo: [ packagesList rootNodeHolder: [ :item | VSPackageNode new content: item ] ];
 		yourself.  
@@ -18,28 +18,28 @@ initializeWidgets
 							text.
 						 ]."
 
-	packagesLabel := self instantiate: LabelPresenter .
+	packagesLabel := self instantiate: LabelModel .
 	packagesLabel label: 'Packages' .
 	
-	addPackageButton := self instantiate: ButtonPresenter .
+	addPackageButton := self instantiate: ButtonModel .
 	addPackageButton
 		icon: (self iconNamed: #packageAddIcon);
 		enabled: false;
 		help: 'Add a package to this project'.
 	
-	removePackageButton  := self instantiate: ButtonPresenter .
+	removePackageButton  := self instantiate: ButtonModel .
 	removePackageButton 
 		icon: (self iconNamed: #packageDeleteIcon);
 		enabled: false;
 		help: 'Remove a package from this project'.
 	
-	editPackageButton  := self instantiate: ButtonPresenter .
+	editPackageButton  := self instantiate: ButtonModel .
 	editPackageButton
 		icon: (self iconNamed: #editIcon);
 		enabled: false;
 		help: 'Edit package requirements'.
 	
-	savePackageButton  := self instantiate: ButtonPresenter .
+	savePackageButton  := self instantiate: ButtonModel .
 	savePackageButton
 		icon: (self iconNamed: #smallSaveIcon);
 		enabled: false;

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ListPresenterTest",
+	"super" : "ListModelTest",
 	"category" : "Spec-Tests-PolyWidgets-Labelled",
 	"classinstvars" : [ ],
 	"pools" : [ ],

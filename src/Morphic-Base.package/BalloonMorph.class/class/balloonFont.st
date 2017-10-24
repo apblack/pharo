@@ -1,3 +1,3 @@
 utility
 balloonFont
-	^ StandardFonts balloonFont
+	^ BalloonFont ifNil: [BalloonFont := StandardFonts defaultFont]

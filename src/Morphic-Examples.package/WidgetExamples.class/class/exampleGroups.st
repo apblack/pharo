@@ -1,8 +1,9 @@
 examples
 exampleGroups
 	"Open a window with examples of each of the group type morphs."
+
 	"self exampleGroups"
-	<script>
+
 	| dialog builder |
 	builder := self exampleBuilder.
 	dialog := (builder newPluggableDialogWindow: 'Example groups')
@@ -69,9 +70,9 @@ exampleGroups
 											('Page 2'
 												->
 													(dialog
-														newCheckboxFor: (NewValueHolder new value: true)
-														getSelected: #value
-														setSelected: #value:
+														newCheckboxFor: (ValueHolder new contents: true)
+														getSelected: #contents
+														setSelected: #contents:
 														label: 'A Checkbox'
 														help: 'This is a checkbox'))}))})})
 				vResizing: #spaceFill);

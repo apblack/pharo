@@ -1,3 +1,3 @@
 meta-data - dependency analyser
 manuallyResolvedDependencies
-	^ #(#'Fonts-Abstract' #'AST-Core')
+	^ #(#'Morphic-Core' #'Graphics-Fonts' #'System-VMEvents' #'OpalCompiler-Core' #'Morphic-Base' #FontInfrastructure #'Text-Edition')

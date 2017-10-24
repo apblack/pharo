@@ -1,4 +1,4 @@
-tests
+testing
 testIsAllDigits
 	"self run: #testIsAllDigits"
 	self assert: '' isAllDigits = false.

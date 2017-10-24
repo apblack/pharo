@@ -1,6 +1,6 @@
 initialization
 setupMenu
-	menu := MenuPresenter new.
+	menu := MenuModel new.
 	menu applyTo: self.
 	menu
 		addGroup: [ :group | 

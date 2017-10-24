@@ -1,4 +1,4 @@
-tests
+testing
 testCleanup
 	| class |
 	gofer

@@ -1,4 +1,4 @@
-tests
+testing
 testMetaclassPointOfCircularity
 	"self run: #testMetaclassPointOfCircularity"
 

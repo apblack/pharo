@@ -1,4 +1,4 @@
-tests
+testing
 testBasics
 	| q |
 	q := self newQueue.

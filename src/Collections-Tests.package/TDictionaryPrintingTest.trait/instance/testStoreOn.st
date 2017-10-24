@@ -1,4 +1,4 @@
-tests - printing
+test - printing
 testStoreOn
 	| str |
 	str := String new writeStream.

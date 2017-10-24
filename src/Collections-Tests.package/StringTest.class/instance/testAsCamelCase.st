@@ -1,4 +1,4 @@
-tests - converting
+testing - converting
 testAsCamelCase
 
        self assert: 'A man, a plan, a canal, panama' asCamelCase = 'AMan,APlan,ACanal,Panama'.

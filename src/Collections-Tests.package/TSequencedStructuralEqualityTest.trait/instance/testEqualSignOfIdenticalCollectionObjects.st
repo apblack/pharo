@@ -1,4 +1,4 @@
-tests - equality
+test - equality
 testEqualSignOfIdenticalCollectionObjects
 	"self debug: #testEqualSignOfIdenticalCollectionObjects"
 	

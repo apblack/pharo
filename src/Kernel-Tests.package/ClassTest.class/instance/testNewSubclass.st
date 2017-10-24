@@ -1,4 +1,4 @@
-tests - class creation
+classcreation
 testNewSubclass
 	| cls |
 	cls := Point newSubclass.

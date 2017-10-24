@@ -1,4 +1,4 @@
-tests
+testing
 testRemoteChanges
 	| changes |
 	gofer

@@ -6,10 +6,10 @@ firstExample
 		
 	ModelList browse
 
-And follow the tutorial while browsing the code. So let''s subclass ComposablePresenter.
+And follow the tutorial while browsing the code. So let''s subclass ComposableModel.
 
 
-	ComposablePresenter subclass: #ModelList
+	ComposableModel subclass: #ModelList
 	instanceVariableNames: ''list''
 	classVariableNames: ''
 	category: ''Spec-Examples''		
@@ -18,7 +18,7 @@ The first required step then is to instantiate and define the sub widgets. This 
 
 	ModelList>>initializeWidgets
 	list := self newList.
-	list items: (AbstractWidgetPresenter allSubclasses
+	list items: (AbstractWidgetModel allSubclasses
 	sorted: [:a :b | a name < b name ]).
 	self focusOrder add: list
 	

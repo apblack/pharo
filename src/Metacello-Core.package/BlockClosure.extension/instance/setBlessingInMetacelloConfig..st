@@ -1,4 +1,4 @@
-*metacello-core
+*Metacello-Core
 setBlessingInMetacelloConfig: aMetacelloConfig
 
 	aMetacelloConfig setBlessingWithBlock: self

@@ -1,6 +1,6 @@
 initialization
 initializeProjectsWidget
-	projectList := (self instantiate: TreePresenter)
+	projectList := (self instantiate: TreeModel)
 		whenBuiltDo: [ projectList rootNodeHolder: [ :item | VSProjectNode new content: item ] ];
 		on: PharoShortcuts current browseShortcut
 			do: [ self browseSelectedProject ];
@@ -15,12 +15,12 @@ initializeProjectsWidget
 		(version size > 0) ifTrue: [
 			text := text , ' (' , item currentVersion , ')' ].
 		text  asStringMorph ]."
-	addProjectButton := (self instantiate: ButtonPresenter)
+	addProjectButton := (self instantiate: ButtonModel)
 		label: nil;
 		icon: (self iconNamed: #addIcon);
 		enabled: false;
 		help: 'Add a new dependent project to this project'.
-	removeProjectButton := (self instantiate: ButtonPresenter)
+	removeProjectButton := (self instantiate: ButtonModel)
 		label: nil;
 		icon: (self iconNamed: #deleteIcon);
 		enabled: false;

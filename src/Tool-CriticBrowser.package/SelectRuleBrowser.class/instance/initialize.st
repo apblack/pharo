@@ -2,8 +2,8 @@ initialization
 initialize
 	| wrappingBlock selectedRulesChildrenBlock rulesToSelectChildrenBlock |
 	super initialize.
-	toSelectModel := self instantiate: TreePresenter.
-	selectedModel := self instantiate: TreePresenter.
+	toSelectModel := self instantiate: TreeModel.
+	selectedModel := self instantiate: TreeModel.
 	selectedRules := Set new.
 	selectedRulesChildrenBlock := [ :rule | 
 		rule isComposite

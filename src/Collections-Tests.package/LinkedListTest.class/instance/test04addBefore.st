@@ -1,4 +1,4 @@
-tests
+testing
 test04addBefore
 	self assert: list isEmpty.
 	

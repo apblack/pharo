@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ComposablePresenter",
+	"super" : "ComposableModel",
 	"category" : "Spec-Tools-Monticello",
 	"classinstvars" : [ ],
 	"pools" : [ ],

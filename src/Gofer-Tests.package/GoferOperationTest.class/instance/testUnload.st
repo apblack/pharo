@@ -1,4 +1,4 @@
-tests
+testing
 testUnload
 	gofer
 		package: 'GoferFoo';

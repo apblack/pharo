@@ -1,4 +1,4 @@
-tests - bugs
+bugs
 testPeekerUnhibernateBug
 	"self run: #testPeekerUnhibernateBug"
 

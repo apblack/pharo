@@ -1,4 +1,4 @@
-tests - working
+testing-working
 testVersionShouldFindWorkingCopy
 	| versionReference workingCopy |
 	versionReference := GoferVersionReference name: 'Gofer-Core-lr.18'.

@@ -1,4 +1,4 @@
 api
 selectedClassIndex
 
-	 ^ classesListPresenter selectedIndex
+	 ^ classesListModel selectedIndex

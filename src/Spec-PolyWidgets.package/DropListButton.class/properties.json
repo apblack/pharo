@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "PavelKrivanek 10/11/2017 14:00",
-	"super" : "ComposablePresenter",
+	"commentStamp" : "Spirita 7/22/2016 16:24",
+	"super" : "ComposableModel",
 	"category" : "Spec-PolyWidgets-Elementary",
 	"classinstvars" : [ ],
 	"pools" : [ ],

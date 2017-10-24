@@ -1,10 +1,10 @@
 api
 updateMessagesList
 	| sel |
-	sel := methodsListPresenter selectedItem.
+	sel := methodsListModel selectedItem.
 	
 	self selectedClass
-			ifNil: [ methodsListPresenter items: {} ]
-			ifNotNil: [:class | methodsListPresenter items: (self selectedChangeSet selectorsInClass: class name) sort].
+			ifNil: [ methodsListModel items: {} ]
+			ifNotNil: [:class | methodsListModel items: (self selectedChangeSet selectorsInClass: class name) sort].
 				
-	methodsListPresenter setSelectedItem: sel
+	methodsListModel setSelectedItem: sel

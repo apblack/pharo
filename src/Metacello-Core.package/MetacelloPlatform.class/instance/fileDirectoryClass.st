@@ -1,3 +1,4 @@
 github/bitbucket support
 fileDirectoryClass
-	^ Smalltalk at: #FileDirectory
+
+	^ self class environment at: #FileDirectory 

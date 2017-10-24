@@ -1,4 +1,4 @@
-helper
+tests-rng
 testRNG
 	| chars uniqueCount |
 	chars := (1 to: 100)

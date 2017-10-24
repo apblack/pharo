@@ -1,4 +1,4 @@
-tests - non-creation
+test - non-creation
 testNew
 	"self debug: #testNew"
 

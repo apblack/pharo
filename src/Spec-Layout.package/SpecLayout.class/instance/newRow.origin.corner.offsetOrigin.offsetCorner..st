@@ -7,6 +7,6 @@ newRow: aBlock origin: originPoint corner: cornerPoint offsetOrigin: ooPoint off
 	
 	commands add: (SpecLayoutAddRow
 							block: block
-							layoutFrame: ((originPoint corner: cornerPoint) asSpecLayoutFrame 
+							layoutFrame: ((originPoint corner: cornerPoint) asLayoutFrame 
 										topLeftOffset: ooPoint;
 										bottomRightOffset: ocPoint)).

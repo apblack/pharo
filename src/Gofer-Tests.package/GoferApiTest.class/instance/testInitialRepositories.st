@@ -1,4 +1,4 @@
-tests
+testing
 testInitialRepositories
 	gofer := Gofer new.
 	self assert: (gofer repositories size = 1).

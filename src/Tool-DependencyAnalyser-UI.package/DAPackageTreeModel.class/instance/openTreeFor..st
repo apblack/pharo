@@ -1,7 +1,7 @@
 actions
 openTreeFor: namesOfSelected
 	| treeToOpen relationGraph |
-	treeToOpen := TreePresenter new.
+	treeToOpen := TreeModel new.
 	relationGraph := self tree owner relationGraph.
 	^ treeToOpen
 		roots: namesOfSelected;

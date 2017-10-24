@@ -1,4 +1,4 @@
-tests
+testing
 testAtPutInt4
 
 	pointArray at: 2 put: 405933 @ -405933.

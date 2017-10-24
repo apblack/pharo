@@ -1,4 +1,4 @@
-tests - drawing
+accessing
 testDrawingWayOutside5
 	| f1 bb f2 |
 	f1 := Form extent: 100 @ 100 depth: 1.

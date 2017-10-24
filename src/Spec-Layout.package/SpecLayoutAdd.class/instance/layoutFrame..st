@@ -1,4 +1,4 @@
 accessing
 layoutFrame: newFrame
 
-	layoutFrame := newFrame asSpecLayoutFrame
+	layoutFrame := newFrame asLayoutFrame

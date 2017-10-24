@@ -1,4 +1,4 @@
-tests
+testing
 testAnyOneWhenAllContentsWasGarbaged
 	| ws o |
 	o := Object new.

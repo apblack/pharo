@@ -1,4 +1,4 @@
-tests
+testing
 testSchedulingSamePriorityFirstComeFirstServed
     "The first process to run will pass straight through the gate
     while the other waits for the assert to whichRan."

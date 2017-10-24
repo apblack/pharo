@@ -1,4 +1,4 @@
-*metacello-core
+*Metacello-Core
 metacelloVersionComponentLessThan: aMetacelloVersonComponent
 
 	^aMetacelloVersonComponent metacelloIntegerLessThanSelf: self

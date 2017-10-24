@@ -1,4 +1,4 @@
-I am an elementary Spec widget that associates a DropListPresenter and a ButtonPresenter.
+I am an elementary Spec widget that associates a DropListModel and a ButtonModel.
 
 self example
 

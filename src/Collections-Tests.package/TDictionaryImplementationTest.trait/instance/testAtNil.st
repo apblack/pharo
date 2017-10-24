@@ -1,4 +1,4 @@
-tests - implementation
+test - implementation
 testAtNil
 	"(self run: #testAtNil)"
 

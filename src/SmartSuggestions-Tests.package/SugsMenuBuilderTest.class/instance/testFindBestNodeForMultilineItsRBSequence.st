@@ -1,4 +1,4 @@
-tests - nodes
+nodes
 testFindBestNodeForMultilineItsRBSequence
 	| node |
 

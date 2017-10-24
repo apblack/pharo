@@ -1,4 +1,4 @@
-tests - multiply
+testing
 testMultiplyByArray
 	| newColor oldColor tolerance |
 	tolerance := 0.001.

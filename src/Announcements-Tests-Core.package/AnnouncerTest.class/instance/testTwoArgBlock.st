@@ -1,4 +1,4 @@
-tests
+testing
 testTwoArgBlock
 	"we are supposed to accept two-argument blocks as actions "
 

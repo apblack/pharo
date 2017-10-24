@@ -1,4 +1,4 @@
-tests
+testing
 testAtPut
 
 	pointArray at: 2 put: -1 @ -1.

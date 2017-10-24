@@ -1,3 +1,3 @@
 accessing
 defaultTimeLimit
-	^DefaultTimeLimit ifNil: [DefaultTimeLimit := 10 seconds]
+	^DefaultTimeLimit ifNil: [DefaultTimeLimit := 1 minutes]

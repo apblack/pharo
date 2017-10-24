@@ -1,4 +1,4 @@
-tests
+testing
 testForkAtHigherPriority
 
 	| hasBlockRun block return |

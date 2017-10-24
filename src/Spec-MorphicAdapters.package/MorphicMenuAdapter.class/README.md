@@ -1,1 +1,1 @@
-I am the adapter used to build a MenuMorph from a MenuPresenter
+I am the adapter used to build a MenuMorph from a MenuModel

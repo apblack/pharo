@@ -1,4 +1,4 @@
-tests - adding
+test - adding
 testAddWithKeyNotIn
 	| dictionary result association |
 	dictionary := self nonEmptyDict.

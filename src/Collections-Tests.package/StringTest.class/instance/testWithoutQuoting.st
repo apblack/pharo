@@ -1,4 +1,4 @@
-tests - internet
+testing - internet
 testWithoutQuoting
  	#(
                '"foo"' 'foo'

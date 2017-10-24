@@ -1,4 +1,4 @@
-tests
+testing
 testHeavyContention
 	"run 10 threads, pushing new values to queue,
 	and 10 threads pullung values from queue,

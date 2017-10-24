@@ -1,4 +1,4 @@
-tests
+testing
 testBranchAfterAuthorIsNotABranch
 	| queryReference |
 	queryReference := GoferVersionReference name: 'Seaside-Core-jf.configcleanup.3'.

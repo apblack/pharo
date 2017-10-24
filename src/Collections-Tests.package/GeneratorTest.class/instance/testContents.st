@@ -1,4 +1,4 @@
-tests
+testing
 testContents
 	| generator |
 	generator := self numbersBetween: 1 and: 3.

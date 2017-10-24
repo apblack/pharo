@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "MetacelloPharoPlatform",
+	"super" : "MetacelloPharoCommonPlatform",
 	"category" : "Metacello-Platform",
 	"classinstvars" : [ ],
 	"pools" : [ ],

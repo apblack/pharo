@@ -1,4 +1,4 @@
-generated tests
+tests-categorization
 testIsNonspacingMark
 
 	"Exhaustively check that the charset under test behaves like Unicode"

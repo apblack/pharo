@@ -40,7 +40,7 @@ bootstrapPackages
 	#'System-Sources'
 	#'System-Support'
 	#Traits
-	#'Transcript-Core'
+	#Transcript
 	#UIManager
 	#'Collections-Abstract'
 	#'Collections-Arithmetic'
@@ -55,5 +55,5 @@ bootstrapPackages
 	#'Zinc-Character-Encoding-Core'
 	#'Zinc-Resource-Meta-Core'
 	#'PharoBootstrap-Initialization'
-	#'Transcript-NonInteractive'
+	#NonInteractiveTranscript
 	)

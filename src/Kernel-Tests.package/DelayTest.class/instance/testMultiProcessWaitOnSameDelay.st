@@ -1,4 +1,4 @@
-tests - limits
+testing-limits
 testMultiProcessWaitOnSameDelay
 	"Ensure that waiting on the same delay from multiple processes raises an error"
 	| delay p1 p2 wasRun |

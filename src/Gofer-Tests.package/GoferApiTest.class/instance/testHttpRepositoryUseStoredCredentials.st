@@ -1,4 +1,4 @@
-tests - repositories
+testing-repositories
 testHttpRepositoryUseStoredCredentials
 
 	| exampleServer registry |

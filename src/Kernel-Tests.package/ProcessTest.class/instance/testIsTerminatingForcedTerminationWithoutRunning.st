@@ -1,4 +1,4 @@
-tests - termination
+testing
 testIsTerminatingForcedTerminationWithoutRunning
 	| process unwound started terminator |
 	unwound := false.

@@ -6,9 +6,9 @@ secondExample
 		a list
 		a label.
 
-So again, we start by subclassing ComposablePresenter:
+So again, we start by subclassing ComposableModel:
 
-	ComposablePresenter subclass: #ProtocolList
+	ComposableModel subclass: #ProtocolList
 	instanceVariableNames: ''label protocols''
 	classVariableNames: ''
 	category: ''Spec-Examples''

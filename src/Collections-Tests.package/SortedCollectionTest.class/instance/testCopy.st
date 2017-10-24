@@ -1,4 +1,4 @@
-tests - basic
+basic
 testCopy
 	"self run: #testCopy"
 	"self debug: #testCopy"

@@ -2,7 +2,6 @@ factory
 buildWidget
 	^ CheckboxMorph new
 		on: self selected: #state changeSelected: #state:;
-		getEnabledSelector: #enabled;
 		label: self label;
 		labelClickable: self labelClickable;
 		beRadioButton;

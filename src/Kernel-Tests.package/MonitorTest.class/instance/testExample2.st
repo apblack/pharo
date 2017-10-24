@@ -1,4 +1,4 @@
-tests - examples
+examples
 testExample2
 	"Here is a second version that does not use a semaphore to inform the 
 	forking process about termination of both forked processes"

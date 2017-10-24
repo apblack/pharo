@@ -1,4 +1,4 @@
-tests
+testing
 testSemaphoreNoTimeout
 	| sem process |
 	sem := Semaphore new.

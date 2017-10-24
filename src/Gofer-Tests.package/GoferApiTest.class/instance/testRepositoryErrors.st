@@ -1,4 +1,4 @@
-tests - repositories - options
+testing-repositories-options
 testRepositoryErrors
 	gofer
 		url: 'http://pharo-project.org/page-that-will-never-ever-exist';

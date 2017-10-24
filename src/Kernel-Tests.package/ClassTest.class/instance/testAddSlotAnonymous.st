@@ -1,4 +1,4 @@
-tests
+testing
 testAddSlotAnonymous
 	"self run: #testAddInstVarName"
 

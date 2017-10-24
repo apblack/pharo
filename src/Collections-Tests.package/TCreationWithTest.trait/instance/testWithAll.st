@@ -1,4 +1,4 @@
-tests - creation
+test - creation
 testWithAll
 	"self debug: #testWithAll"
 	

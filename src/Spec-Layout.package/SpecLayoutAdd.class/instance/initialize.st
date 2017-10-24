@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self selector: #add:.
-	layoutFrame := SpecLayoutFrame identity.
+	layoutFrame := LayoutFrame identity.
 	subwidget := nil.

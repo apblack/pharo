@@ -4,4 +4,4 @@ setUp
 
 	specInterpreterClass := SpecInterpreter.
 	specInterpreter := specInterpreterClass new.
-	specInterpreter model: TestingComposablePresenter new
+	specInterpreter model: TestingComposableModel new

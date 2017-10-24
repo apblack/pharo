@@ -1,6 +1,6 @@
 initialization
 setSliceButton
-	sliceButton := self instantiate: ButtonPresenter.
+	sliceButton := self instantiate: ButtonModel.
 	sliceButton
 		state: false;
 		label: '+Slice';

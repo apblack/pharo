@@ -53,11 +53,6 @@ initializeCommandLineHandlerAndErrorHandling
 	InstructionStream initialize.
 	SmallInteger initialize.
 
-	"FFI"
-	ExternalObject initialize.
-	ExternalFunction initialize.
-	ExternalType initialize.
-
 	"Initialize basic command line behaviour"
 	Stdio initialize.
 	NonInteractiveTranscript initialize.

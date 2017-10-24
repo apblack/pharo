@@ -1,4 +1,4 @@
-tests
+testing
 testLessThan
 
 self assert: ('@' < 'A').

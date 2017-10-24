@@ -4,6 +4,6 @@ rename
 	| set |
 	set := self model rename: self selectedChangeSet.
 	
-	changesListPresenter 
+	changesListModel 
 		updateList;
 		setSelectedItem: set

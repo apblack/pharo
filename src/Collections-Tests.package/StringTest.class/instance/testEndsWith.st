@@ -1,4 +1,4 @@
-tests
+testing
 testEndsWith 
 
 self deny: ('éèàôüößäóñíá' endsWith: 'ia').

@@ -1,4 +1,4 @@
-tests - multiply
+testing
 testMultiplyByArrayIdentityTransform
 	| newColor oldColor tolerance |
 	tolerance := 0.001.

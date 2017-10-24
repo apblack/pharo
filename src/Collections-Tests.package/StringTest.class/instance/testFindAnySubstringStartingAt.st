@@ -1,4 +1,4 @@
-tests
+testing
 testFindAnySubstringStartingAt
 
 self assert: ('tester12345' findAnySubstring: #('st' $1) startingAt: 1) = 3.

@@ -1,3 +1,3 @@
-*metacello-core-version comparison
+*Metacello-Core-version comparison
 metacelloSemanticVersionComponentLessThan: aMetacelloVersonComponent
     ^ aMetacelloVersonComponent metacelloSemanticStringLessThanSelf: self

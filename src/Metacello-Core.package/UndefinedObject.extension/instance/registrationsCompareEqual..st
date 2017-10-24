@@ -1,3 +1,3 @@
-*metacello-core
+*Metacello-Core
 registrationsCompareEqual: aMetacelloProjectSpec
     ^ self = aMetacelloProjectSpec

@@ -1,4 +1,4 @@
-tests - equality
+test - equality
 testEqualSignIsTrueForNonIdenticalButEqualCollections
 	"self debug: #testEqualSignIsTrueForNonIdenticalButEqualCollections"
 		

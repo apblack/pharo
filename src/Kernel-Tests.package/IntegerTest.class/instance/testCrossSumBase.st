@@ -1,4 +1,4 @@
-tests - arithmetic
+testing - arithmetic
 testCrossSumBase
 	"self run: #testCrossSumBase"
 

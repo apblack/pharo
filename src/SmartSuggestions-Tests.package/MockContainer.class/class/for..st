@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 for: model
 	^ self new 
 		model: model; 

@@ -1,4 +1,4 @@
-running
+tests
 runValidationTest2
 	| q sema prio pusher r cnt |
 

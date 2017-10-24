@@ -1,4 +1,4 @@
-tests - testing
+test - testing
 testHasBindingThatBeginsWith
 	| newDict |
 	newDict := self collectionClass new 

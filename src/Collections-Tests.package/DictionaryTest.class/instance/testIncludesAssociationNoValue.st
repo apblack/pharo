@@ -1,4 +1,4 @@
-tests - testing
+test - testing
 testIncludesAssociationNoValue
 
 	| association dictionary |

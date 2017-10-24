@@ -1,4 +1,4 @@
-tests
+testing
 testOne
 	| benchmarkResult |
 	benchmarkResult := BenchmarkResult new.

@@ -1,4 +1,4 @@
-tests - valid
+valid
 testExtractLocalInASequenceNodeWithOneSentenceIsValid
 	| oneLine context suggestion |
 	

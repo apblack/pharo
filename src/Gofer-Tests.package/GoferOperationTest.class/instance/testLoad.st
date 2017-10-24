@@ -1,4 +1,4 @@
-tests
+testing
 testLoad
 	gofer version: 'GoferFoo-lr.1'.
 	gofer load.

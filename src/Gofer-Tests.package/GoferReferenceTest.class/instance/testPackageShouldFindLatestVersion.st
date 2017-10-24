@@ -1,4 +1,4 @@
-tests - reference
+testing-reference
 testPackageShouldFindLatestVersion
 	| packageReference reference |
 	packageReference := GoferPackageReference name: 'GoferFoo'.

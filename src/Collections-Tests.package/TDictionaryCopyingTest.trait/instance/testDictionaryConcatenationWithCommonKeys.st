@@ -1,4 +1,4 @@
-tests - copying
+test - copying
 testDictionaryConcatenationWithCommonKeys
 
 	| dictionary1 dictionary2 result |

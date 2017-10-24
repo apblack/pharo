@@ -2,7 +2,7 @@ actions
 loadMenuFor: item in: aMenu
 	| menuGroup selectedNodes |
 	selectedNodes := self selectedItemsFromTree.
-	menuGroup := MenuGroupPresenter new.
+	menuGroup := MenuGroupModel new.
 	self addPackageOptionsFor: selectedNodes on: menuGroup.
 	self addDependenciesOptionsFor: selectedNodes asSet on: menuGroup.
 	(selectedNodes size = 1)

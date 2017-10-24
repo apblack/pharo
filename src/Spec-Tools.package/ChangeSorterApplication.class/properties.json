@@ -1,20 +1,20 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ComposablePresenter",
+	"super" : "ComposableModel",
 	"category" : "Spec-Tools-ChangeSorter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"model",
+		"changesListModel",
+		"classesListModel",
+		"methodsListModel",
+		"textModel",
 		"prettyPrint",
 		"showDiff",
 		"prettyButton",
-		"diffButton",
-		"changesListPresenter",
-		"methodsListPresenter",
-		"classesListPresenter",
-		"textPresenter"
+		"diffButton"
 	],
 	"name" : "ChangeSorterApplication",
 	"type" : "normal"

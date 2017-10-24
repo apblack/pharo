@@ -1,5 +1,5 @@
 accessing
 labelView
 	^ labelView ifNil: [ 
-		labelView := self instantiate: LabelPresenter.
+		labelView := self instantiate: LabelModel.
 		labelView label: 'Environment:' ]

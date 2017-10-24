@@ -1,4 +1,4 @@
-tests - termination
+testing
 testTerminateActive
 
 	| lastStatementEvaluated block1HasRun block2HasRun |

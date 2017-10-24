@@ -1,4 +1,4 @@
-tests
+testing
 testFindString
 
 self assert: ('éèàôüößäóñíá' findString: 'ÉÈ') = 0.

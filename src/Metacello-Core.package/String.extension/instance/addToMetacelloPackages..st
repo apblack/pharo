@@ -1,4 +1,4 @@
-*metacello-core
+*Metacello-Core
 addToMetacelloPackages: aMetacelloPackagesSpec
 
 	| spec |

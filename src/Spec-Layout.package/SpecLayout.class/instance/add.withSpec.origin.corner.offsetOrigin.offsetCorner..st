@@ -4,6 +4,6 @@ add: modelGetter withSpec: aSymbol origin: originPoint corner: cornerPoint offse
 	commands add: (SpecLayoutAddWithSpec 
 							subwidget: modelGetter 
 							spec: aSymbol 
-							layoutFrame: ((originPoint corner: cornerPoint) asSpecLayoutFrame 
+							layoutFrame: ((originPoint corner: cornerPoint) asLayoutFrame 
 												topLeftOffset: ooPoint;
 												bottomRightOffset: ocPoint))

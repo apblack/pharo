@@ -14,7 +14,7 @@ DropListExample new openWithSpec
 
 DynamicWidgetChange new openWithSpec
 
-ListSelectionPresenter new openWithSpec
+ListSelectionModel new openWithSpec
 
 MethodBrowser new openWithSpec
 

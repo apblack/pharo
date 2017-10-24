@@ -1,4 +1,4 @@
-tests - file in/out
+testing - file in/out
 testSuperclassOrderPreservingOrder
 	| noHierarchicalRelationship ordered |
 	"a shuffled collection of direct subclasses of Collection"

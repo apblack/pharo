@@ -1,4 +1,4 @@
-tests - public methods
+testing-public methods
 testAddAfterIndex
 	"self run: #testAddAfterIndex"
 	| l |

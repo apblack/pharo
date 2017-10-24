@@ -1,4 +1,4 @@
-tests - valid context
+valid-context
 testDebuggerIsAValidContext
 	| debugger |
 	

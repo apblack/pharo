@@ -1,11 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "ListSelectionPresenter",
-	"category" : "Spec-Examples-Deprecated",
+	"commentStamp" : "Spirita 7/26/2016 15:03",
+	"super" : "ComposableModel",
+	"category" : "Spec-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"listModel",
+		"textModel1",
+		"textModel2",
+		"textRefreshingProcess"
+	],
 	"name" : "ListSelectionModel",
 	"type" : "normal"
 }

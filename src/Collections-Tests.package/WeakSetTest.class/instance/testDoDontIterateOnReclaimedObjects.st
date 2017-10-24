@@ -1,4 +1,4 @@
-tests
+testing
 testDoDontIterateOnReclaimedObjects
 
 	| ws o1 o2 size |

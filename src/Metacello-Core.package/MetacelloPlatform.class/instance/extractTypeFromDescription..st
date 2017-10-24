@@ -8,8 +8,6 @@ extractTypeFromDescription: description
     ifTrue: [ ^ 'dictionary' ].
   (description beginsWith: 'filetree://')
     ifTrue: [ ^ 'filetree' ].
-  (description beginsWith: 'tonel://')
-    ifTrue: [ ^ 'tonel' ].
   (description beginsWith: 'github://')
     ifTrue: [ ^ 'github' ].
   (description beginsWith: 'gitorious://')

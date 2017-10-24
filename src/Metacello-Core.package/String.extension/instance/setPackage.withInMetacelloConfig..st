@@ -1,4 +1,4 @@
-*metacello-core
+*Metacello-Core
 setPackage: aString withInMetacelloConfig: aMetacelloConfig
 
 	aMetacelloConfig setPackage: aString withString: self

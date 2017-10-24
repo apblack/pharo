@@ -1,4 +1,4 @@
-tests
+testing
 testAt
 
 	self assert: 0@0 equals: (pointArray at: 1).

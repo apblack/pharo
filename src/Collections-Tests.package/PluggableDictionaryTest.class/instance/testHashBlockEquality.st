@@ -1,4 +1,4 @@
-tests - comparing
+test - comparing
 testHashBlockEquality
 	| pluggableDict pluggableDict2 hashBlock |
 

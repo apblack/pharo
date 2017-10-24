@@ -1,4 +1,4 @@
-tests - creation
+test - creation
 testOfSize
 	"self debug: #testOfSize"
 	

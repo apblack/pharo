@@ -1,4 +1,4 @@
-tests
+testing
 test11removeLast
 	list add: link1.
 	list add: link2.

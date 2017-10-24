@@ -1,4 +1,4 @@
-tests - iterate
+test - iterate
 testDo
 
 	| res |

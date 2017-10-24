@@ -1,3 +1,3 @@
-tests - exceptiontester
+testing-exceptiontester
 testSimplePass
 	self assertSuccess: (ExceptionTester new runTest: #simplePassTest ) 

@@ -1,4 +1,4 @@
-tests
+testing
 test09addAfter
 	| l last |
 	l := LinkedList new.

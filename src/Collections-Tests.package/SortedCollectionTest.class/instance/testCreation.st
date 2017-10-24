@@ -1,4 +1,4 @@
-tests - basic
+basic
 testCreation
 	"self run: #testCreation"
 	"self debug: #testCreation"

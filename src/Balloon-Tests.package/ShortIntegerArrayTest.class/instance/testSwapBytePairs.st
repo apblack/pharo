@@ -1,4 +1,4 @@
-tests
+testing
 testSwapBytePairs
 
 	shortIntegerArray swapBytePairsHacky.

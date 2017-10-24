@@ -1,4 +1,4 @@
-tests - subscribing
+testing
 testSubscribeClassWithExclusion
 	| announcement instance |
 	announcer

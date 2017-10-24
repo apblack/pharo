@@ -8,7 +8,8 @@
 	"instvars" : [
 		"tests",
 		"resources",
-		"name"
+		"name",
+		"announcer"
 	],
 	"name" : "TestSuite",
 	"type" : "normal"

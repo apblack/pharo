@@ -1,9 +1,9 @@
 initialization
 initializeWidgets
-	label := self instantiate: LabelPresenter.
-	check := self instantiate: CheckBoxPresenter.
-	input := self instantiate: TextInputFieldPresenter.
-	button := self instantiate: ButtonPresenter.
+	label := self instantiate: LabelModel.
+	check := self instantiate: CheckBoxModel.
+	input := self instantiate: TextInputFieldModel.
+	button := self instantiate: ButtonModel.
 	button
 		label: 'reset';
 		action: [ input text: textToReset ].

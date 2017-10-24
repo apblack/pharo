@@ -1,3 +1,4 @@
 announcements
 testSuiteAnnouncer
-	^ self announcer
+	announcer ifNil:[ announcer := Announcer new.].
+	^ announcer.

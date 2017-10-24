@@ -1,3 +1,3 @@
 initialization
 initializeWidgets
-	label := self instantiate: LabelPresenter.
+	label := self instantiate: LabelModel.

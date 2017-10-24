@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TreeNodePresenter",
+	"super" : "TreeNodeModel",
 	"category" : "Komitter-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],

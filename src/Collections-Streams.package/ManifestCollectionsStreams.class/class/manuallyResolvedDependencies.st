@@ -1,3 +1,3 @@
 meta-data - dependency analyser
 manuallyResolvedDependencies
-	^ #(#UIManager #'Transcript-Tool' #'Transcript-Core' #Traits #'Collections-Abstract' #Jobs)
+	^ #(#UIManager #'Tool-Transcript' #Transcript #Traits #'Collections-Abstract' #Jobs)

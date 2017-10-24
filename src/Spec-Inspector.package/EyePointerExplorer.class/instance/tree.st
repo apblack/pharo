@@ -1,7 +1,7 @@
 accessing
 tree
 	^ tree ifNil: [ 
-		tree := self instantiate: TreePresenter.
+		tree := self instantiate: TreeModel.
 		tree whenBuiltDo: [ self initializeShortcuts ].
 		tree 
 			whenSelectedItemChanged: [ :item | item ifNotNil: [ self text doItReceiver: item value ]];	

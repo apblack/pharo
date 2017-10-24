@@ -1,4 +1,4 @@
-tests
+testing
 testEmpty
 	| generator |
 	generator := Generator on: [ :g | ].

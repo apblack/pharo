@@ -1,3 +1,3 @@
 SpecInterpreter
 	interpretASpec: MorphicButtonAdapter  defaultSpec
-	model: (MorphicButtonAdapter model: ButtonPresenter new)
+	model: (MorphicButtonAdapter model: ButtonModel2 new)

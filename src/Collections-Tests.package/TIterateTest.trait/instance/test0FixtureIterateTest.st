@@ -1,4 +1,4 @@
-tests - fixture
+test - fixture
 test0FixtureIterateTest
 	| res |
 	self collectionWithoutNilElements.

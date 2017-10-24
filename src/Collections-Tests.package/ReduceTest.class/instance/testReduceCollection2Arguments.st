@@ -1,4 +1,4 @@
-tests
+testing
 testReduceCollection2Arguments
 	| block |
 	block := [ :a :b | a + b ].

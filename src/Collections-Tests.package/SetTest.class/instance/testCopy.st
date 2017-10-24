@@ -1,4 +1,4 @@
-tests - some
+some tests
 testCopy
 	| newFull |
 	full add: 3.

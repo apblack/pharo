@@ -1,4 +1,4 @@
-tests
+testing
 testSetUp
 
 	self assert: 4 equals: (shortIntegerArray at:1) . 

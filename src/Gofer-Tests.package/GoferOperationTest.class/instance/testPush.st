@@ -1,4 +1,4 @@
-tests
+testing
 testPush
 	| repository |
 	gofer := Gofer new.

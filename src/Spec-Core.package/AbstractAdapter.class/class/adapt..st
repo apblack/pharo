@@ -1,6 +1,6 @@
 instance creation
-adapt: aComposablePresenter
+adapt: aComposableModel
 	
 	^ self new
-		adapt: aComposablePresenter;
+		adapt: aComposableModel;
 		yourself

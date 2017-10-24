@@ -1,4 +1,4 @@
-tests
+testing
 testReduceLeft2Arguments
 	| block |
 	block := [ :a :b | Array with: a with: b ].

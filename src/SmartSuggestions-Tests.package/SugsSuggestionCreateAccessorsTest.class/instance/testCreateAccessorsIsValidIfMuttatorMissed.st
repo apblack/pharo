@@ -1,4 +1,4 @@
-tests - instance variables
+inst-var
 testCreateAccessorsIsValidIfMuttatorMissed
 	| suggestion context |
 	

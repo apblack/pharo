@@ -29,7 +29,6 @@ createVMStubs
 	objectSpace backend contextClass: (self createStubForClassNamed: #Context).
 	objectSpace backend processClass: (self createStubForClassNamed: #Process).
 	objectSpace backend blockClass: (self createStubForClassNamed: #BlockClosure).
-	objectSpace backend fullBlockClass: (self createStubForClassNamed: #FullBlockClosure).
 	objectSpace backend messageClass: (self createStubForClassNamed: #Message).
 	objectSpace backend semaphoreClass: (self createStubForClassNamed: #Semaphore).
 	

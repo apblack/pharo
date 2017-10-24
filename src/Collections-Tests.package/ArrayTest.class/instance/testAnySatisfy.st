@@ -1,4 +1,4 @@
-tests - iterate
+test - iterate
 testAnySatisfy
 
 	self assert: ( self collection anySatisfy: [:each | each = -2]).

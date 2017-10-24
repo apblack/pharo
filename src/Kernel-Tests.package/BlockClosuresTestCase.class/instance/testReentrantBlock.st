@@ -1,4 +1,4 @@
-tests
+testing
 testReentrantBlock
 
 	| fib |

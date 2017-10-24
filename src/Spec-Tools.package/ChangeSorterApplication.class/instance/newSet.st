@@ -6,4 +6,4 @@ newSet
 	aSet := self model createNewSet.
 	aSet ifNotNil:
 		[	self updateChangesList.
-			changesListPresenter setSelectedItem: aSet ]
+			changesListModel setSelectedItem: aSet ]

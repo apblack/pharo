@@ -1,4 +1,4 @@
-tests - sunit original tests
+sunit original tests
 testOccurrences
 	self assert: ((empty occurrencesOf: 0) = 0).
 	self assert: ((full occurrencesOf: 4) = 1).

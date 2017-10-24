@@ -1,4 +1,4 @@
-tests
+testing
 testNestedLoopsExample1
 
    | arrays result |

@@ -1,4 +1,4 @@
-tests
+testing
 testOccursInWithEmptyCaseSensitive
 
 self assert: ('abc98def' occursInWithEmpty: 'abc' caseSensitive: true). 

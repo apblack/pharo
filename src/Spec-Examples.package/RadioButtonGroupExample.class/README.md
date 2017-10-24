@@ -1,3 +1,3 @@
-A RadioButtonGroupExample is an simple example about how to use RadioButtonGroupPresenter.
+A RadioButtonGroupExample is an simple example about how to use RadioButtonGroupModel.
 
 self example

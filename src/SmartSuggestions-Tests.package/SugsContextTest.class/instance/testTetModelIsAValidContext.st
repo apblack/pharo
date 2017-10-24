@@ -1,7 +1,7 @@
-tests - valid context
+valid-context
 testTetModelIsAValidContext
 	| textModel |
 	
-	(textModel := TextPresenter new)
+	(textModel := TextModel new)
 		beForCode.
 	self assert: (SugsAbstractContext contextFor: textModel) class equals: SugsMessageBrowserContext.

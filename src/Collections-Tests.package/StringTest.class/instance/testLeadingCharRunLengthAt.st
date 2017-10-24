@@ -1,4 +1,4 @@
-tests
+testing
 testLeadingCharRunLengthAt
 
 self assert: ('test' leadingCharRunLengthAt: 1) = 4.

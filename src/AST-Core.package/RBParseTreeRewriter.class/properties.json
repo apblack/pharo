@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "StephaneDucasse 10/12/2017 11:25",
+	"commentStamp" : "<historical>",
 	"super" : "RBParseTreeSearcher",
 	"category" : "AST-Core-Matching",
 	"classinstvars" : [ ],

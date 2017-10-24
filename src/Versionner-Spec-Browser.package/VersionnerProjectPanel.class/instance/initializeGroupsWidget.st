@@ -1,6 +1,6 @@
 initialization
 initializeGroupsWidget
-	groupList := (self instantiate: TreePresenter)
+	groupList := (self instantiate: TreeModel)
 		autoDeselection: true;
 		dragEnabled: true;
 		dropEnabled: true;
@@ -16,13 +16,13 @@ initializeGroupsWidget
 							[ :item | VSGroupNode new content: item ] ];
 		yourself.
 	
-	addGroupButton := (self instantiate: ButtonPresenter)
+	addGroupButton := (self instantiate: ButtonModel)
 		label: nil;
 		icon: (self iconNamed: #addIcon);
 		enabled: false;
 		help: 'Add a new group to this project'.
 	
-	removeGroupButton  := (self instantiate: ButtonPresenter)
+	removeGroupButton  := (self instantiate: ButtonModel)
 		label: nil;
 		icon: (self iconNamed: #deleteIcon);
 		enabled: false;

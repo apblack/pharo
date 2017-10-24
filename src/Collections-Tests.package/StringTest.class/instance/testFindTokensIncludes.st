@@ -1,4 +1,4 @@
-tests
+testing
 testFindTokensIncludes
 
 self assert: (('test this' findTokens: 't' includes: 'his') = 'his').

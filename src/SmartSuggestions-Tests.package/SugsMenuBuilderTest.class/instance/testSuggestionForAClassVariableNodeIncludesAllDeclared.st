@@ -1,4 +1,4 @@
-tests - suggestions by selection
+suggstions-by-selection
 testSuggestionForAClassVariableNodeIncludesAllDeclared
 	| suggestions expected|
 

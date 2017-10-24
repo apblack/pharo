@@ -1,4 +1,4 @@
-*metacello-core
+*Metacello-Core
 removeFromMetacelloPackages: aMetacelloPackagesSpec
 
 	aMetacelloPackagesSpec addMember: 

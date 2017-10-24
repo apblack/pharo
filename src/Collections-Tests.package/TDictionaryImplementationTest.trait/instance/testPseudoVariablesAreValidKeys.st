@@ -1,4 +1,4 @@
-tests - implementation
+test - implementation
 testPseudoVariablesAreValidKeys
 	"(self run: #testPseudoVariablesAreValidKeys)"
 
